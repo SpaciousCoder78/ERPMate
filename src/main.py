@@ -1,16 +1,5 @@
 import xlsxwriter
 
-def menu():
-    #Menu 
-    print("-----------------------------ERPMate--------------------------------")
-    print("1. Start an ERP session")
-    print("2. Exit")
-    menyo=int(input("Enter your choice: "))
-    if menyo==1:
-        ERPsession()
-    if menyo==2:
-        pass
-
 def ERPsession():
     #start of an erp session
     print("------------------------------ERP Session----------------------------")
@@ -27,11 +16,10 @@ def ERPsession():
     anxietyat10min= input("Rate your Anxiety after 10 min: ")
     anxietyat30min= input("Rate your Anxiety after 30 min: ")
     anxietyat60min= input("Rate your Anxiety after 1 hour: ")
-    createExcelsheet()
+    adddata()
     print("Data recorded in excel sheet")
 
-def createExcelsheet():
-    #creating an excel sheet
+def adddata():
     f=input("Enter the file name in the format 'filename.xlsx': ")
     workbook=xlsxwriter.Workbook(f)
     worksheet=workbook.add_worksheet("ERPData")
@@ -64,16 +52,13 @@ def createExcelsheet():
              
     workbook.close()
 
-    
-
-    
-
-
-
-
-
-
-menyoo=1
-#While loop for menu
-while menyoo==1:
-    menu()
+workbook = None
+ #Menu
+print("-----------------------------ERPMate--------------------------------")
+menyo=1
+while menyo==1:
+    print("1.Start an ERP session")
+    print("2.exit")
+    menyo = int(input("enter your choice"))
+    if menyo==1:
+        ERPsession()
