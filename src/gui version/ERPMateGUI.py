@@ -26,7 +26,7 @@ layout= [
 ]
 
 #passing the layout to window
-window=sg.Window("ERPMateGUI",layout)
+window=sg.Window("ERPMateGUI v2.0",layout)
 
 #for the clear button
 def clear_input():
