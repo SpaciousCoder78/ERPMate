@@ -5,13 +5,24 @@ A software designed to note down obsessions and compulsions and measuring the an
 - Python 3.10
 - Python libraries --> pandas, PySimpleGui, Openpyxl
 
-#Required software
+# Required software
 
 - Microsoft Excel or any app that can open spreadsheets
 
-#Supported Operating Systems
+# Supported Operating Systems
 Windows 7 or later
 
+# What is ERP
+The exposure component of ERP refers to practicing confronting the thoughts, images, objects, and situations that make you anxious and/or provoke your obsessions. The response prevention part of ERP refers to making a choice not to do a compulsive behavior once the anxiety or obsessions have been “triggered.” All of this is done under the guidance of a therapist at the beginning — though you will eventually learn to do your own ERP exercises to help manage your symptoms. Over time, the treatment will “retrain your brain” to no longer see the object of the obsession as a threat.
+
+![image](https://user-images.githubusercontent.com/88923986/214502755-871fb6f2-e1ea-4120-8e9d-b0ac3751a71e.png)
+
+
+This strategy of purposefully exposing yourself to things that make you anxious may not sound quite right to you. Maybe it sounds difficult. If you have OCD, you have probably tried to confront your obsessions and anxiety only to see that you become very anxious and fearful. With ERP, the difference is that a trained clinician is working with you to develop a plan for exposure. Then, that therapist coaches you through confronting the situation, leaning into the feelings it provokes, sticking with it, and resisting the urge to engage in compulsive behavior.
+
+# Purpose of the project
+
+The purpose of this project is to let people doing ERP to log their ERP sessions and make it easy to share the data with their therapists
 # How to install
 Go to the home page of this repository and go to the releases section
 ![image](https://user-images.githubusercontent.com/88923986/214500881-629f6968-5108-4e2a-9bb4-9acc4e2a0c45.png)
